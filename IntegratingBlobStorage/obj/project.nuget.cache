@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "ESMrlFpjkiH8nd11+Ujavh1Z79qGIe3Q9wz0Tej9KUA70/jcFWuiAUzaesT87SrnXasQWR30438T6K/4CE1tyA==",
+  "success": true,
+  "projectFilePath": "D:\\Test Projects\\azure-functions\\IntegratingBlobStorage\\IntegratingBlobStorage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nadar\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\azure.storage.blobs\\12.6.0\\azure.storage.blobs.12.6.0.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\azure.storage.common\\12.5.2\\azure.storage.common.12.5.2.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\nadar\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
