@@ -14,35 +14,58 @@ namespace SendGridMailService
         // https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email
 
         // Note: you can add email footers, attachments, etc. Check out resource.
-        public void SendMail(string sendToEmail)
+
+        // You need to verify your sender in SendGrid to send emails.
+        public async Task SendMail(string sendToEmail)
         {
-            var msg = new SendGridMessage();
+            #region Variant 1
+            //var msg = new SendGridMessage();
 
-            msg.SetFrom(new EmailAddress("dx@example.com", "Nadar Testing purposes"));
+            //msg.SetFrom(new EmailAddress("nadarqa@gmail.com", "Nadar Testing purposes"));
 
-            var recipients = new List<EmailAddress>
-            {
-                new EmailAddress("nadaralp16@gmail.com", "Nadar Alpenidzesdqw")
-            };
+            //var recipients = new List<EmailAddress>
+            //{
+            //    new EmailAddress("nadaralp16@gmail.com", "Nadar Alpenidzesdqw")
+            //};
 
-            // msg.AddTo(); // adds a single recipient to the email.
-            msg.AddTos(recipients);
-
-
-            // Set message subject
-            msg.SetSubject("This is a test email from mailgrid nadar test");
-
-            // Adding content the the email
-            msg.AddContent(MimeType.Text, "Hello world plain text");
-            msg.AddContent(MimeType.Html, "<h1>Hello world h1 tag</h1>");
+            //// msg.AddTo(); // adds a single recipient to the email.
+            //msg.AddTos(recipients);
 
 
-            // To send the email we need to create the send grid client with the API key.
-            var client = new SendGridClient(Environment.GetEnvironmentVariable("SENDGRID_APIKEY"));
+            //// Set message subject
+            //msg.SetSubject("This is a test email from mailgrid nadar test");
+
+            //// Adding content the the email
+            //msg.AddContent(MimeType.Text, "Hello world plain text");
+            //msg.AddContent(MimeType.Html, "<h1>Hello world h1 tag</h1>");
 
 
-            // Sending the email
-            client.SendEmailAsync(msg);
+            //// To send the email we need to create the send grid client with the API key.
+            //var client = new SendGridClient(Environment.GetEnvironmentVariable("SENDGRID_APIKEY"));
+
+
+            //// Sending the email
+            //await client.SendEmailAsync(msg); 
+            #endregion
+
+            #region Variant 2
+
+            var apiKey = Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
+            var client = new SendGridClient(apiKey);
+
+            var from = new EmailAddress("nadarqa@gmail.com", "Example User");
+            var subject = "Hi Josh";
+            var to = new EmailAddress("nadaralp16@gmail.com", "Example User");
+            var plainTextContent = "How are you doing today?";
+            var htmlContent = "<strong>Hey anie, how are you?. I wanted to thank you for joining our website. Here is a link to read more about it <br /> <a href=\"https://google.com\">Read more</a></strong>";
+            var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
+            var response = await client.SendEmailAsync(msg);
+
+            var t = response.Body;
+
+            #endregion
+
+
 
         }
     }

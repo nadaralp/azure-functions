@@ -8,6 +8,6 @@ namespace SendGridMailService
 {
     public interface IMailService
     {
-        public void SendMail(string sendToEmail);
+        public Task SendMail(string sendToEmail);
     }
 }
