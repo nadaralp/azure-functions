@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PubSubDemo.Core.Common
+namespace SendGridMailService
 {
-    public interface IFunctionStartupSetup
+    public interface IMailService
     {
-        void AddLayerDependencies();
+        public void SendMail(string sendToEmail);
     }
 }

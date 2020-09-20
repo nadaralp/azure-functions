@@ -1596,6 +1596,16 @@
         "runtime": {
           "bin/placeholder/PubSubDemo.Data.dll": {}
         }
+      },
+      "PubSubDemo.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PubSubDemo.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PubSubDemo.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -5734,12 +5744,18 @@
       "type": "project",
       "path": "../PubSubDemo.Data/PubSubDemo.Data.csproj",
       "msbuildProject": "../PubSubDemo.Data/PubSubDemo.Data.csproj"
+    },
+    "PubSubDemo.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../PubSubDemo.Infrastructure/PubSubDemo.Infrastructure.csproj",
+      "msbuildProject": "../PubSubDemo.Infrastructure/PubSubDemo.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "PubSubDemo.Core >= 1.0.0",
-      "PubSubDemo.Data >= 1.0.0"
+      "PubSubDemo.Data >= 1.0.0",
+      "PubSubDemo.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5773,6 +5789,9 @@
             },
             "D:\\Test Projects\\azure-functions\\PubSubDemo.Data\\PubSubDemo.Data.csproj": {
               "projectPath": "D:\\Test Projects\\azure-functions\\PubSubDemo.Data\\PubSubDemo.Data.csproj"
+            },
+            "D:\\Test Projects\\azure-functions\\PubSubDemo.Infrastructure\\PubSubDemo.Infrastructure.csproj": {
+              "projectPath": "D:\\Test Projects\\azure-functions\\PubSubDemo.Infrastructure\\PubSubDemo.Infrastructure.csproj"
             }
           }
         }

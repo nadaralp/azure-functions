@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B5VBl3PSRoGj2jGvxyVEd37qP6buAKGxK/a6ZW8ChzIqwjDExSUIpCrdfA1r8WPNk7Jfux0tX5u1x/Zac4+9wg==",
+  "dgSpecHash": "isbqb/6X2mNe7PNpmMYTzM1ggMjJtVm+gcuijZ1S51//TyBNhlmBuMasmHlpRJV17knUICYYqZvyOmntZc5v1w==",
   "success": true,
   "projectFilePath": "D:\\Test Projects\\azure-functions\\PubSubDemo.Services\\PubSubDemo.Services.csproj",
   "expectedPackageFiles": [

@@ -1,6 +1,8 @@
 ﻿using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using PubSubDemo.Core.Services;
+using PubSubDemo.Infrastructure;
+using PubSubDemo.Infrastructure.Utils;
 using PubSubDemo.Services.People;
 
 namespace PubSubDemo.Services

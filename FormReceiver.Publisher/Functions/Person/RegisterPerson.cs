@@ -48,7 +48,6 @@ namespace FormReceiver.Publisher.Functions
             }
 
 
-
         }
     }
 }

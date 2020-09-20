@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EmailSenderFunctionService": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --port 7073"
+    }
+  }
+}

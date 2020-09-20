@@ -1,0 +1,8 @@
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\bin\Release\netcoreapp3.1\PubSubDemo.Infrastructure.deps.json
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\bin\Release\netcoreapp3.1\PubSubDemo.Infrastructure.dll
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\bin\Release\netcoreapp3.1\PubSubDemo.Infrastructure.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Release\netcoreapp3.1\PubSubDemo.Infrastructure.AssemblyInfoInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Release\netcoreapp3.1\PubSubDemo.Infrastructure.AssemblyInfo.cs
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Release\netcoreapp3.1\PubSubDemo.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Release\netcoreapp3.1\PubSubDemo.Infrastructure.dll
+D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Release\netcoreapp3.1\PubSubDemo.Infrastructure.pdb

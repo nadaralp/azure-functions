@@ -5,7 +5,7 @@ using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
 using PubSubDemo.Core.Entities;
 using PubSubDemo.Core.Services;
-using PubSubDemo.Services;
+using PubSubDemo.Infrastructure.Utils;
 
 namespace FormReceiver.Publisher.Functions
 {

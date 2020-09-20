@@ -9,7 +9,8 @@
       "PubSubDemo.Services/1.0.0": {
         "dependencies": {
           "PubSubDemo.Core": "1.0.0",
-          "PubSubDemo.Data": "1.0.0"
+          "PubSubDemo.Data": "1.0.0",
+          "PubSubDemo.Infrastructure": "1.0.0"
         },
         "runtime": {
           "PubSubDemo.Services.dll": {}
@@ -1126,6 +1127,11 @@
         "runtime": {
           "PubSubDemo.Data.dll": {}
         }
+      },
+      "PubSubDemo.Infrastructure/1.0.0": {
+        "runtime": {
+          "PubSubDemo.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1904,6 +1910,11 @@
       "sha512": ""
     },
     "PubSubDemo.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PubSubDemo.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

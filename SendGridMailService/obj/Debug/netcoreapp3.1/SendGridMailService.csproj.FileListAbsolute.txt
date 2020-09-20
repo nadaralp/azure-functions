@@ -1,0 +1,9 @@
+D:\Test Projects\azure-functions\SendGridMailService\bin\Debug\netcoreapp3.1\SendGridMailService.deps.json
+D:\Test Projects\azure-functions\SendGridMailService\bin\Debug\netcoreapp3.1\SendGridMailService.dll
+D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.AssemblyInfoInputs.cache
+D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.AssemblyInfo.cs
+D:\Test Projects\azure-functions\SendGridMailService\bin\Debug\netcoreapp3.1\SendGridMailService.pdb
+D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.csprojAssemblyReference.cache
+D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.csproj.CoreCompileInputs.cache
+D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.dll
+D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.pdb

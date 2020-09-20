@@ -12,3 +12,5 @@ D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\P
 D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.csproj.CopyComplete
 D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.dll
 D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Infrastructure.dll
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Infrastructure.pdb
