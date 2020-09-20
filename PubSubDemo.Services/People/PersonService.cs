@@ -21,20 +21,21 @@ namespace PubSubDemo.Services.People
         }
 
 
-        public async Task<bool> Add(Person person)
+        public async Task<int> Add(Person person)
         {
             try
             {
                 if (person.RegisterDare.Ticks == 0)
                     person.RegisterDare = DateTime.Now;
 
-                await _people.AddAsync(person);
+                var addedRow = await _people.AddAsync(person);
                 await _context.SaveChangesAsync();
-                return true;
+
+                return addedRow.Entity.Id;
             }
             catch(DbUpdateException)
             {
-                return false;
+                return -1;
             }
         }
 

@@ -25,17 +25,19 @@ namespace FormReceiver.Publisher.Functions
         [FunctionName("RegisterPerson")]
         public async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, methods: "post", Route = null)] HttpRequest req,
+            [Queue("newly-registered"), StorageAccount("AzureWebJobsStorage")] ICollector<string> queue,
             ILogger log)
         {
-
             try
             {
                 string payload = await new StreamReader(req.Body).ReadToEndAsync();
                 //Person person = JsonSerializer.Deserialize<Person>(payload, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true});
                 Person person = JsonSerializer.Deserialize<Person>(payload);
 
-                await _personService.Add(person);
+                int rowId = await _personService.Add(person);
                 log.LogInformation("person was added successfully");
+
+                queue.Add(rowId.ToString());
 
                 return new OkObjectResult(person);
             }

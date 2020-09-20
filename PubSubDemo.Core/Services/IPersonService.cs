@@ -14,6 +14,6 @@ namespace PubSubDemo.Core.Services
 
         Task<Person> FirstOrDefault(Expression<Func<Person, bool>> predicateExpression);
 
-        Task<bool> Add(Person person);
+        Task<int> Add(Person person);
     }
 }
