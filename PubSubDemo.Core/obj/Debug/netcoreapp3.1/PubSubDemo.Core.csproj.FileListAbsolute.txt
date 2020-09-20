@@ -1,0 +1,9 @@
+D:\Test Projects\azure-functions\PubSubDemo.Core\bin\Debug\netcoreapp3.1\PubSubDemo.Core.deps.json
+D:\Test Projects\azure-functions\PubSubDemo.Core\bin\Debug\netcoreapp3.1\PubSubDemo.Core.dll
+D:\Test Projects\azure-functions\PubSubDemo.Core\bin\Debug\netcoreapp3.1\PubSubDemo.Core.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Core\obj\Debug\netcoreapp3.1\PubSubDemo.Core.csprojAssemblyReference.cache
+D:\Test Projects\azure-functions\PubSubDemo.Core\obj\Debug\netcoreapp3.1\PubSubDemo.Core.AssemblyInfoInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Core\obj\Debug\netcoreapp3.1\PubSubDemo.Core.AssemblyInfo.cs
+D:\Test Projects\azure-functions\PubSubDemo.Core\obj\Debug\netcoreapp3.1\PubSubDemo.Core.csproj.CoreCompileInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Core\obj\Debug\netcoreapp3.1\PubSubDemo.Core.dll
+D:\Test Projects\azure-functions\PubSubDemo.Core\obj\Debug\netcoreapp3.1\PubSubDemo.Core.pdb

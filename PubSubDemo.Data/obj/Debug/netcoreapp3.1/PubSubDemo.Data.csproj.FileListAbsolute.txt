@@ -1,0 +1,15 @@
+D:\Test Projects\azure-functions\PubSubDemo.Data\bin\Debug\netcoreapp3.1\PubSubDemo.Data.deps.json
+D:\Test Projects\azure-functions\PubSubDemo.Data\bin\Debug\netcoreapp3.1\PubSubDemo.Data.runtimeconfig.json
+D:\Test Projects\azure-functions\PubSubDemo.Data\bin\Debug\netcoreapp3.1\PubSubDemo.Data.runtimeconfig.dev.json
+D:\Test Projects\azure-functions\PubSubDemo.Data\bin\Debug\netcoreapp3.1\PubSubDemo.Data.dll
+D:\Test Projects\azure-functions\PubSubDemo.Data\bin\Debug\netcoreapp3.1\PubSubDemo.Data.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Data\bin\Debug\netcoreapp3.1\PubSubDemo.Core.dll
+D:\Test Projects\azure-functions\PubSubDemo.Data\bin\Debug\netcoreapp3.1\PubSubDemo.Core.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.csprojAssemblyReference.cache
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.AssemblyInfoInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.AssemblyInfo.cs
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.csproj.CoreCompileInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.csproj.CopyComplete
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.dll
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Data\obj\Debug\netcoreapp3.1\PubSubDemo.Data.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Services.deps.json
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Services.dll
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Services.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Core.dll
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Data.dll
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Core.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Release\netcoreapp3.1\PubSubDemo.Data.pdb
+D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.csprojAssemblyReference.cache
+D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.AssemblyInfoInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.AssemblyInfo.cs
+D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.csproj.CoreCompileInputs.cache
+D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.csproj.CopyComplete
+D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.dll
+D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Release\netcoreapp3.1\PubSubDemo.Services.pdb

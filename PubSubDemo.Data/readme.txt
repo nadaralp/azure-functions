@@ -1,0 +1,3 @@
+﻿add-migration InitialMigration -Context PubSubDemo.Data.PeopleDbContext -Project PubSubDemo.Data -StartupProject PubSubDemo.Data
+
+You need to specifiy every thing.....
