@@ -1,5 +1,7 @@
 ﻿using FormReceiver.Publisher;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
+using PubSubDemo.Core.Entities;
 using PubSubDemo.Data;
 using PubSubDemo.Services;
 
@@ -13,6 +15,13 @@ namespace FormReceiver.Publisher
         {
             builder.AddDataLayerToFunctionRuntime();
             builder.AddServicesToFunctionRuntime();
+
+            // You can initialize singletons like that.
+            //builder.Services.AddSingleton((x) => 
+            //{
+            //    var p = new MongoDbClient();
+            //    return p;
+            //});
 
             // builder.Services.AddScoped<ITestService, TestService>();
         }

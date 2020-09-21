@@ -21,7 +21,7 @@ namespace FormReceiver.Publisher.Functions
         }
 
 
-        [FunctionName("AddPersonInterval")]
+        [FunctionName(nameof(AddPersonEveryMinute))]
         public void Run(
             [TimerTrigger("0 0/1 * 1/1 * *")]TimerInfo myTimer,
             ILogger log)

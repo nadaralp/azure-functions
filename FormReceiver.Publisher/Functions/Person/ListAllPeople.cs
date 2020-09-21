@@ -25,8 +25,7 @@ namespace FormReceiver.Publisher.Functions
         public async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
             ILogger log)
-        {
-            
+        {   
             try
             {
                 return new OkObjectResult(await _personService.GetAll());

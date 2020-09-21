@@ -23,11 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubSubDemo.Services", "PubS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewlyRegisteredEmailModule", "NewlyRegisteredEmailModule", "{C4798BBE-274F-46DE-A584-01C02B2720CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubDemo.Infrastructure", "PubSubDemo.Infrastructure\PubSubDemo.Infrastructure.csproj", "{D0AD1559-95E7-4CB0-901D-74A704099CFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubSubDemo.Infrastructure", "PubSubDemo.Infrastructure\PubSubDemo.Infrastructure.csproj", "{D0AD1559-95E7-4CB0-901D-74A704099CFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendGridMailService", "SendGridMailService\SendGridMailService.csproj", "{DEA2F1D7-F3B6-45F8-A32F-594B60E5DD61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendGridMailService", "SendGridMailService\SendGridMailService.csproj", "{DEA2F1D7-F3B6-45F8-A32F-594B60E5DD61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderFunctionService", "EmailSenderFunctionService\EmailSenderFunctionService.csproj", "{4C52BA2F-5EE9-4B97-8993-6F96860508CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSenderFunctionService", "EmailSenderFunctionService\EmailSenderFunctionService.csproj", "{4C52BA2F-5EE9-4B97-8993-6F96860508CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExcelCsvBlobRead", "ExcelCsvBlobRead", "{008CB24A-6DC7-4694-9229-C7CD2AB0D79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobFileReaderService", "BlobFileReaderService\BlobFileReaderService.csproj", "{2E6830E6-6AB2-4D3B-805F-FBF80EDA2FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOService", "IOService\IOService.csproj", "{6F4D01BA-4B17-44EF-B595-3BB3D8EFB3CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +85,14 @@ Global
 		{4C52BA2F-5EE9-4B97-8993-6F96860508CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C52BA2F-5EE9-4B97-8993-6F96860508CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C52BA2F-5EE9-4B97-8993-6F96860508CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6830E6-6AB2-4D3B-805F-FBF80EDA2FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6830E6-6AB2-4D3B-805F-FBF80EDA2FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6830E6-6AB2-4D3B-805F-FBF80EDA2FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6830E6-6AB2-4D3B-805F-FBF80EDA2FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4D01BA-4B17-44EF-B595-3BB3D8EFB3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4D01BA-4B17-44EF-B595-3BB3D8EFB3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4D01BA-4B17-44EF-B595-3BB3D8EFB3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4D01BA-4B17-44EF-B595-3BB3D8EFB3CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +106,8 @@ Global
 		{D0AD1559-95E7-4CB0-901D-74A704099CFF} = {C369B7CC-7056-40A3-8EC4-847B453AAED6}
 		{DEA2F1D7-F3B6-45F8-A32F-594B60E5DD61} = {C4798BBE-274F-46DE-A584-01C02B2720CB}
 		{4C52BA2F-5EE9-4B97-8993-6F96860508CA} = {C4798BBE-274F-46DE-A584-01C02B2720CB}
+		{2E6830E6-6AB2-4D3B-805F-FBF80EDA2FAA} = {008CB24A-6DC7-4694-9229-C7CD2AB0D79C}
+		{6F4D01BA-4B17-44EF-B595-3BB3D8EFB3CD} = {008CB24A-6DC7-4694-9229-C7CD2AB0D79C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2EAC328-6E61-4DC4-A748-BFBF0FE1D174}
