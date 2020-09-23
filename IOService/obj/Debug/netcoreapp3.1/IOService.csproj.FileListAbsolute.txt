@@ -3,3 +3,7 @@ D:\Test Projects\azure-functions\IOService\bin\Debug\netcoreapp3.1\IOService.dll
 D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.AssemblyInfoInputs.cache
 D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.AssemblyInfo.cs
 D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.csprojAssemblyReference.cache
+D:\Test Projects\azure-functions\IOService\bin\Debug\netcoreapp3.1\IOService.pdb
+D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.dll
+D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.pdb
+D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.csproj.CoreCompileInputs.cache

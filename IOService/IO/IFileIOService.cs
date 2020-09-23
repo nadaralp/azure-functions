@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IOService
+namespace IOService.IO
 {
     public interface IFileIOService<T> where T : new()
     {
-        public void LoadFile(string filePath);
-        public IEnumerable<T> GetData();
+        public IFileIOService<T> LoadFile(string filePath);
+        public Task<IEnumerable<T>> GetData();
     }
 }

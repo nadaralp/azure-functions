@@ -1,4 +1,6 @@
-﻿using IOService.Models;
+﻿using IOService.AzureBlob;
+using IOService.IO;
+using IOService.Models;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -13,7 +15,13 @@ namespace IOService
     {
         public static void AddIoServiceDependencies(this IFunctionsHostBuilder builder)
         {
-            builder.Services.AddScoped<IFileIOService<SampleData>, ExcelReader<SampleData>>();
+            // Register encoding for 1252 exceel
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
+
+            builder.Services.AddScoped<IFileIOService<SampleData>, AzureExcelReader<SampleData>>();
+
+            builder.Services.AddScoped<AzureStorageBlobOptionsTokenGenerator>();
         }
     }
 }
