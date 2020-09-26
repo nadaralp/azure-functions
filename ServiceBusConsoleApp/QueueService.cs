@@ -42,6 +42,8 @@ namespace ServiceBusConsoleApp
                 await queueClient.SendAsync(message);
 
                 Console.WriteLine("message sent...");
+
+                await queueClient.CloseAsync();
             }
             catch (Exception e)
             {
