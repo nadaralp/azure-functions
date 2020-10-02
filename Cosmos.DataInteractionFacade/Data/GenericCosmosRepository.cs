@@ -64,19 +64,12 @@ namespace Cosmos.DataInteractionFacade.Data
 
         public async Task AddSingleAsync(T entity)
         {
-            try
-            {
-                if (entity.id == Guid.Empty)
-                    entity.id = Guid.NewGuid();
+            if (entity.id == Guid.Empty)
+                entity.id = Guid.NewGuid();
 
-                PartitionKey partitionKey = new PartitionKey(entity.id.ToString());
-                await _container.CreateItemAsync(entity, partitionKey: partitionKey);
-            }
-            catch(Exception e) 
-            {
-                throw;
-            }
-            
+            PartitionKey partitionKey = new PartitionKey(entity.id.ToString());
+            await _container.CreateItemAsync(entity, partitionKey: partitionKey);
+
         }
 
         public async Task AddBatchAsync(IEnumerable<T> entities)

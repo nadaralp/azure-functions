@@ -29,6 +29,7 @@ namespace CosmosDb.CrudDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // todo: implement key-vault extraction instead of reading from appsettings.json
             string accountEndpointUri = Configuration["CosmosDb:AccountEndpointUri"];
             string apiKey = Configuration["CosmosDb:ApiKey"];
             string databaseName = Configuration["CosmosDb:DatabaseName"];
@@ -37,11 +38,11 @@ namespace CosmosDb.CrudDemo
             // todo: ----> implement the following way of getting the instance
             // CosmosRepositoryBuilder cosmosRepositoryBuilder = new CosmosRepositoryBuilder(accountEndpointUri, apiKey);
             // services.AddSingleton<ICosmosRepository<Todo>>(cosmosRepositoryBuilder.GetCosmosAbstractRepository<Todo>(databaseName, collectionName));
-            // services.AddSingleton<ITodoRepository>(cosmosRepositoryBuilder.GetRepository<TodoRepository>(databaseName, collectionName));
+            // services.AddSingleton<ITodoRepository>(cosmosRepositoryBuilder.GetRepository<TodoRepository, Todo>(databaseName, collectionName));
 
 
             // todo: ----> This is not needed
-            //services.AddCosmosDbInstanceSingleton<Todo>(
+            // services.AddCosmosDbInstanceSingleton<Todo>(
             //    accountEndpointUri,
             //    apiKey,
             //    databaseName,
