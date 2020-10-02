@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2020-09-27T04:09:02.3632962Z"
+    }
+  },
+  "parameters": {
+    "storage1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "AzureDemo1"
+    },
+    "storage1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "8a306913-1795-43ef-8f38-f144df7b4c6e"
+    }
+  }
+}

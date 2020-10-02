@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.7",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "ServiceBusConnectionString",
+      "queueName": "my-topic",
+      "isSessionsEnabled": false,
+      "name": "mySbMsg"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/FunctionApp.GeneralSubscriber.dll",
+  "entryPoint": "FunctionApp.GeneralSubscriber.GeneralSubscription.Run"
+}
