@@ -19,6 +19,6 @@ namespace CosmosDb.CrudDemo.Models
 
 
         [JsonPropertyName("is_done")]
-        public bool IsDone { get; set; }
+        public bool Test { get; set; }
     }
 }

@@ -8,13 +8,13 @@ namespace Cosmos.DataInteractionFacade
     {
         public static void AddCosmosDbInstanceSingleton<T>(
             this IServiceCollection services,
+            string accountEndpointUri,
+            string key,
             string databaseName, 
-            string containerName,
-            string account,
-            string key
+            string containerName
             ) where T : BaseCosmosEntity
         {
-            CosmosRepositoryClient cosmosRepositoryClient = new CosmosRepositoryClient(databaseName, containerName, account, key);
+            CosmosRepositoryClient cosmosRepositoryClient = new CosmosRepositoryClient(accountEndpointUri, key, databaseName, containerName);
             services.AddSingleton<ICosmosRepository<T>>(cosmosRepositoryClient.GetCosmosRepositoryClient<T>().GetAwaiter().GetResult());
         }
 

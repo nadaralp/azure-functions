@@ -1,5 +1,6 @@
 ﻿using Cosmos.DataInteractionFacade.Entities;
 using Microsoft.Azure.Cosmos;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Cosmos.DataInteractionFacade.Data
@@ -11,7 +12,7 @@ namespace Cosmos.DataInteractionFacade.Data
         readonly string _accountEndpoint;
         readonly string _key;
 
-        public CosmosRepositoryClient(string databaseName, string containerName, string accountEndpoint, string key)
+        public CosmosRepositoryClient(string accountEndpoint, string key, string databaseName, string containerName)
         {
             _databaseName = databaseName;
             _containerName = containerName;

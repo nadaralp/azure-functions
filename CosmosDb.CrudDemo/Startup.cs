@@ -27,8 +27,18 @@ namespace CosmosDb.CrudDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string accountEndpointUri = Configuration["CosmosDb:AccountEndpointUri"];
+            string apiKey = Configuration["CosmosDb:ApiKey"];
+            string databaseName = Configuration["CosmosDb:DatabaseName"];
+            string collectionName = Configuration["CosmosDb:CollectionName"];
+                
 
-            services.AddCosmosDbInstanceSingleton<Todo>();
+            services.AddCosmosDbInstanceSingleton<Todo>(
+                accountEndpointUri,
+                apiKey,
+                databaseName,
+                collectionName
+                );
 
             services.AddControllers();
         }

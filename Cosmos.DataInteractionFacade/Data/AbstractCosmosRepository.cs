@@ -24,10 +24,10 @@ namespace Cosmos.DataInteractionFacade.Data
 
         #region Queries
 
-        public Task<T> GetByIdAsync(Guid id)
+        public async Task<T> GetByIdAsync(Guid id)
         {
-            var collectionQueryable = _container.GetItemLinqQueryable<T>();
-            return Task.FromResult(collectionQueryable.FirstOrDefault(t => t.Id == id));
+            T entity = await _container.ReadItemAsync<T>(id.ToString(), new PartitionKey(id.ToString()));
+            return entity;
         }
 
         public Task<T> GetSingleBy(Expression<Func<T, bool>> predicateExpression)
@@ -36,10 +36,20 @@ namespace Cosmos.DataInteractionFacade.Data
             return Task.FromResult(collectionQueryable.FirstOrDefault(predicateExpression));
         }
 
-        public Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
-            var collectionQueryable = _container.GetItemLinqQueryable<T>();
-            return Task.FromResult(collectionQueryable.AsEnumerable());
+            List<T> results = new List<T>();
+
+            using (FeedIterator<T> query = _container.GetItemQueryIterator<T>("select * from c"))
+            {
+                while (query.HasMoreResults)
+                {
+                    FeedResponse<T> response = await query.ReadNextAsync();
+                    results.AddRange(response.ToList());
+                }
+            }
+
+            return results;
         }
 
         public Task<IEnumerable<T>> GetCollectionByAsync(Expression<Func<T, bool>> predicateExpression)
@@ -54,8 +64,19 @@ namespace Cosmos.DataInteractionFacade.Data
 
         public async Task AddSingleAsync(T entity)
         {
-            PartitionKey partitionKey = new PartitionKey(entity.Id.ToString());
-            await _container.CreateItemAsync(entity, partitionKey: partitionKey);
+            try
+            {
+                if (entity.id == Guid.Empty)
+                    entity.id = Guid.NewGuid();
+
+                PartitionKey partitionKey = new PartitionKey(entity.id.ToString());
+                await _container.CreateItemAsync(entity, partitionKey: partitionKey);
+            }
+            catch(Exception e) 
+            {
+                throw;
+            }
+            
         }
 
         public async Task AddBatchAsync(IEnumerable<T> entities)
@@ -66,7 +87,7 @@ namespace Cosmos.DataInteractionFacade.Data
 
         public async Task UpdateSingleAsync(T entity)
         {
-            PartitionKey partitionKey = new PartitionKey(entity.Id.ToString());
+            PartitionKey partitionKey = new PartitionKey(entity.id.ToString());
             await _container.UpsertItemAsync(entity, partitionKey);
         }
 
@@ -80,7 +101,7 @@ namespace Cosmos.DataInteractionFacade.Data
 
         public async Task<bool> DeleteAsync(T entity)
         {
-            return await DeleteAsync(entity.Id);
+            return await DeleteAsync(entity.id);
         }
 
         public async Task<bool> DeleteAsync(Guid id)

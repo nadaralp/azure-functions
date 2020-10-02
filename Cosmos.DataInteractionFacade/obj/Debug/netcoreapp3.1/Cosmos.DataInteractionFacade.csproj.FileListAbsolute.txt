@@ -5,3 +5,7 @@ D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\obj\Debug\netcorea
 D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\obj\Debug\netcoreapp3.1\Cosmos.DataInteractionFacade.AssemblyInfo.cs
 D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
 D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\bin\Debug\netcoreapp3.1\Cosmos.CRTCompat.dll
+D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\bin\Debug\netcoreapp3.1\Cosmos.DataInteractionFacade.pdb
+D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\obj\Debug\netcoreapp3.1\Cosmos.DataInteractionFacade.csproj.CoreCompileInputs.cache
+D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\obj\Debug\netcoreapp3.1\Cosmos.DataInteractionFacade.dll
+D:\Test Projects\azure-functions\Cosmos.DataInteractionFacade\obj\Debug\netcoreapp3.1\Cosmos.DataInteractionFacade.pdb

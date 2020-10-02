@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CosmosDb.CrudDemo.OptionsPattern
+namespace Cosmos.DataInteractionFacade
 {
     public class CosmosDbOptions
     {
-        public string Uri { get; set; }
+        public string AccountEndpointUri { get; set; }
         public string ApiKey { get; set; }
+        public string DatabaseName { get; set; }
         public string CollectionName { get; set; }
     }
 }
