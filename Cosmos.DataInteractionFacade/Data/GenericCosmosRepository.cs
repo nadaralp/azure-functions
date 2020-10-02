@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 namespace Cosmos.DataInteractionFacade.Data
 {
     // This Repository using cosmos db
-    public class AbstractCosmosRepository<T> : ICosmosRepository<T> where T : BaseCosmosEntity
+    public class GenericCosmosRepository<T> : ICosmosRepository<T> where T : BaseCosmosEntity
     {
 
         protected Container _container;
 
-        public AbstractCosmosRepository(
+        public GenericCosmosRepository(
             CosmosClient cosmosClient,
             string databaseName,
             string containerName)

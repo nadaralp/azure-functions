@@ -14,8 +14,8 @@ namespace Cosmos.DataInteractionFacade
             string containerName
             ) where T : BaseCosmosEntity
         {
-            CosmosRepositoryClient cosmosRepositoryClient = new CosmosRepositoryClient(accountEndpointUri, key, databaseName, containerName);
-            services.AddSingleton<ICosmosRepository<T>>(cosmosRepositoryClient.GetCosmosRepositoryClient<T>().GetAwaiter().GetResult());
+            CosmosRepositoryBuilder cosmosRepositoryClient = new CosmosRepositoryBuilder(accountEndpointUri, key, databaseName, containerName);
+            services.AddSingleton<ICosmosRepository<T>>(cosmosRepositoryClient.GetCosmosAbstractRepository<T>().GetAwaiter().GetResult());
         }
 
     }
