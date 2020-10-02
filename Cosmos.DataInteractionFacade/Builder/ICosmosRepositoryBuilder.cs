@@ -6,7 +6,7 @@ namespace Cosmos.DataInteractionFacade.Builder
 {
     public interface ICosmosRepositoryBuilder
     {
-        Task<GenericCosmosRepository<T>> GetCosmosAbstractRepository<T>(string databaseName, string containerName) where T : BaseCosmosEntity;
+        Task<GenericCosmosRepository<T>> GetCosmosGenericRepository<T>(string databaseName, string containerName) where T : BaseCosmosEntity;
         Task<TRepository> GetCosmosRepository<TRepository, TEntity>(string databaseName, string containerName)
             where TRepository : GenericCosmosRepository<TEntity>
             where TEntity : BaseCosmosEntity;

@@ -1,6 +1,7 @@
 ﻿using Cosmos.DataInteractionFacade.Data;
 using Cosmos.DataInteractionFacade.Entities;
 using Microsoft.Azure.Cosmos;
+using System;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -19,7 +20,7 @@ namespace Cosmos.DataInteractionFacade.Builder
             _client = new CosmosClient(_accountEndpoint, _key);
         }
 
-        public async Task<GenericCosmosRepository<T>> GetCosmosAbstractRepository<T>(string databaseName, string containerName) where T : BaseCosmosEntity
+        public async Task<GenericCosmosRepository<T>> GetCosmosGenericRepository<T>(string databaseName, string containerName) where T : BaseCosmosEntity
         {
             GenericCosmosRepository<T> cosmosRepository = new GenericCosmosRepository<T>(_client, databaseName, containerName);
             DatabaseResponse database = await _client.CreateDatabaseIfNotExistsAsync(databaseName);
@@ -36,11 +37,13 @@ namespace Cosmos.DataInteractionFacade.Builder
             await database.Database.CreateContainerIfNotExistsAsync(databaseName, "/id");
 
             // Use Activator to create TRepository instance
+            TRepository repository = null; //Activator.createInstace(...)
+
 
             // return the instance
 
             //todo: remove null returning
-            return null;
+            return repository;
         }
     }
 
