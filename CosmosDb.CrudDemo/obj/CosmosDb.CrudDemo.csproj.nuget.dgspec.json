@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Test Projects\\azure-functions\\CosmosDb.CrudDemo\\CosmosDb.CrudDemo.csproj": {}
+  },
+  "projects": {
+    "D:\\Test Projects\\azure-functions\\Cosmos.DataInteractionFacade\\Cosmos.DataInteractionFacade.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Test Projects\\azure-functions\\Cosmos.DataInteractionFacade\\Cosmos.DataInteractionFacade.csproj",
+        "projectName": "Cosmos.DataInteractionFacade",
+        "projectPath": "D:\\Test Projects\\azure-functions\\Cosmos.DataInteractionFacade\\Cosmos.DataInteractionFacade.csproj",
+        "packagesPath": "C:\\Users\\nadar\\.nuget\\packages\\",
+        "outputPath": "D:\\Test Projects\\azure-functions\\Cosmos.DataInteractionFacade\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nadar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Test Projects\\azure-functions\\CosmosDb.CrudDemo\\CosmosDb.CrudDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Test Projects\\azure-functions\\CosmosDb.CrudDemo\\CosmosDb.CrudDemo.csproj",
+        "projectName": "CosmosDb.CrudDemo",
+        "projectPath": "D:\\Test Projects\\azure-functions\\CosmosDb.CrudDemo\\CosmosDb.CrudDemo.csproj",
+        "packagesPath": "C:\\Users\\nadar\\.nuget\\packages\\",
+        "outputPath": "D:\\Test Projects\\azure-functions\\CosmosDb.CrudDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nadar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Test Projects\\azure-functions\\Cosmos.DataInteractionFacade\\Cosmos.DataInteractionFacade.csproj": {
+                "projectPath": "D:\\Test Projects\\azure-functions\\Cosmos.DataInteractionFacade\\Cosmos.DataInteractionFacade.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

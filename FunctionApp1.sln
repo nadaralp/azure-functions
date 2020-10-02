@@ -37,19 +37,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOService", "IOService\IOSe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBusDemo", "ServiceBusDemo", "{EAF2FDC0-880D-496E-AE40-DEBBC5FB5735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusConsoleApp", "ServiceBusConsoleApp\ServiceBusConsoleApp.csproj", "{561BE7B7-8AFE-47B8-A5ED-9F15343760D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusConsoleApp", "ServiceBusConsoleApp\ServiceBusConsoleApp.csproj", "{561BE7B7-8AFE-47B8-A5ED-9F15343760D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusConsoleReceiver", "ServiceBusConsoleReceiver\ServiceBusConsoleReceiver.csproj", "{B41F9024-9215-4B06-B00C-068BE7DC8E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusConsoleReceiver", "ServiceBusConsoleReceiver\ServiceBusConsoleReceiver.csproj", "{B41F9024-9215-4B06-B00C-068BE7DC8E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus.model", "ServiceBus.model\ServiceBus.model.csproj", "{3818DC73-1E99-4E20-91BE-37E945F6C723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus.model", "ServiceBus.model\ServiceBus.model.csproj", "{3818DC73-1E99-4E20-91BE-37E945F6C723}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topics", "Topics", "{71EE621C-429E-4AD1-B6C4-428487E072B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.TopicPublisher", "ConsoleApp.TopicPublisher\ConsoleApp.TopicPublisher.csproj", "{C85552A0-0316-441D-A391-1711E70091FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.TopicPublisher", "ConsoleApp.TopicPublisher\ConsoleApp.TopicPublisher.csproj", "{C85552A0-0316-441D-A391-1711E70091FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.TopicReceiverGeneral", "ConsoleApp.TopicReceiverGeneral\ConsoleApp.TopicReceiverGeneral.csproj", "{DC9DB331-FA01-4AA6-89C9-B6313E6F4FFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.TopicReceiverGeneral", "ConsoleApp.TopicReceiverGeneral\ConsoleApp.TopicReceiverGeneral.csproj", "{DC9DB331-FA01-4AA6-89C9-B6313E6F4FFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.TopicReceiverFiltered", "ConsoleApp.TopicReceiverFiltered\ConsoleApp.TopicReceiverFiltered.csproj", "{19F7B697-E8DD-4062-ABE3-1AD0C5E25A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.TopicReceiverFiltered", "ConsoleApp.TopicReceiverFiltered\ConsoleApp.TopicReceiverFiltered.csproj", "{19F7B697-E8DD-4062-ABE3-1AD0C5E25A50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CosmosDb", "CosmosDb", "{26B6FA5D-3DA1-4BA0-A757-0C45BE8C1873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDb.CrudDemo", "CosmosDb.CrudDemo\CosmosDb.CrudDemo.csproj", "{B4670459-C741-4F38-8119-B4374DD3C1FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmos.DataInteractionFacade", "Cosmos.DataInteractionFacade\Cosmos.DataInteractionFacade.csproj", "{7C04B445-1FE3-49D6-877D-ACA50601F16E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +139,14 @@ Global
 		{19F7B697-E8DD-4062-ABE3-1AD0C5E25A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F7B697-E8DD-4062-ABE3-1AD0C5E25A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F7B697-E8DD-4062-ABE3-1AD0C5E25A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4670459-C741-4F38-8119-B4374DD3C1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4670459-C741-4F38-8119-B4374DD3C1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4670459-C741-4F38-8119-B4374DD3C1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4670459-C741-4F38-8119-B4374DD3C1FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C04B445-1FE3-49D6-877D-ACA50601F16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C04B445-1FE3-49D6-877D-ACA50601F16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C04B445-1FE3-49D6-877D-ACA50601F16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C04B445-1FE3-49D6-877D-ACA50601F16E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +169,8 @@ Global
 		{C85552A0-0316-441D-A391-1711E70091FA} = {71EE621C-429E-4AD1-B6C4-428487E072B6}
 		{DC9DB331-FA01-4AA6-89C9-B6313E6F4FFE} = {71EE621C-429E-4AD1-B6C4-428487E072B6}
 		{19F7B697-E8DD-4062-ABE3-1AD0C5E25A50} = {71EE621C-429E-4AD1-B6C4-428487E072B6}
+		{B4670459-C741-4F38-8119-B4374DD3C1FC} = {26B6FA5D-3DA1-4BA0-A757-0C45BE8C1873}
+		{7C04B445-1FE3-49D6-877D-ACA50601F16E} = {26B6FA5D-3DA1-4BA0-A757-0C45BE8C1873}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2EAC328-6E61-4DC4-A748-BFBF0FE1D174}

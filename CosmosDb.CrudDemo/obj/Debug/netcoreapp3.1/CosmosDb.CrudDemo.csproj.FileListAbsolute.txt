@@ -1,0 +1,10 @@
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\CosmosDb.CrudDemo.exe
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.csprojAssemblyReference.cache
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.AssemblyInfoInputs.cache
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.AssemblyInfo.cs
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.RazorTargetAssemblyInfo.cache
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\staticwebassets\CosmosDb.CrudDemo.StaticWebAssets.Manifest.cache
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\staticwebassets\CosmosDb.CrudDemo.StaticWebAssets.xml
