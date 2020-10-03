@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace CosmosDb.CrudDemo.Repository
 {
-    public class TodoRepository : GenericCosmosRepository<Todo>, ITodoRepository
+    public class TodoService : GenericCosmosRepository<Todo>, ITodoService
     {
-        public TodoRepository(
+        public TodoService(
             CosmosClient cosmosClient,
             string databaseName,
             string containerName) : base(cosmosClient, databaseName, containerName)

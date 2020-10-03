@@ -28,10 +28,9 @@ namespace CosmosDb.CrudDemo
             string databaseName = Configuration["CosmosDb:DatabaseName"];
             string collectionName = Configuration["CosmosDb:CollectionName"];
 
-            // todo: ----> implement the following way of getting the instance
             ICosmosRepositoryBuilder cosmosRepositoryBuilder = new CosmosRepositoryBuilder(accountEndpointUri, apiKey);
-            services.AddSingleton<ICosmosRepository<Todo>>(cosmosRepositoryBuilder.GetCosmosGenericRepository<Todo>(databaseName, collectionName).GetAwaiter().GetResult());
-            services.AddSingleton<ITodoRepository>(cosmosRepositoryBuilder.GetCosmosRepository<TodoRepository, Todo>(databaseName, collectionName).GetAwaiter().GetResult());
+            //services.AddSingleton<ICosmosRepository<Todo>>(cosmosRepositoryBuilder.GetCosmosGenericRepository<Todo>(databaseName, collectionName).GetAwaiter().GetResult());
+            services.AddSingleton<ITodoService>(cosmosRepositoryBuilder.GetCosmosRepository<TodoService, Todo>(databaseName, collectionName).GetAwaiter().GetResult());
 
 
             services.AddControllers();
