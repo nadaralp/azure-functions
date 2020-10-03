@@ -14,11 +14,11 @@ namespace CosmosDb.CrudDemo.Controllers
     [ApiController]
     public class TodoController : ControllerBase
     {
-        private readonly ITodoRepository _repository;
+        //private readonly ITodoRepository _repository;
 
-        // private readonly ICosmosRepository<Todo> _repository;
+        private readonly ICosmosRepository<Todo> _repository;
 
-        public TodoController(ITodoRepository repository)
+        public TodoController(ICosmosRepository<Todo> repository)
         {
             _repository = repository;
         }
