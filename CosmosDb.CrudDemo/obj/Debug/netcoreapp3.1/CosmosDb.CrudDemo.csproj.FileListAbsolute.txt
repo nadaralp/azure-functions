@@ -30,9 +30,11 @@ D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\runti
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Cosmos.DataInteractionFacade.dll
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Cosmos.DataInteractionFacade.pdb
-D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.csproj.CoreCompileInputs.cache
-D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.MvcApplicationPartsAssemblyInfo.cache
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.csproj.CopyComplete
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.dll
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.pdb
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.genruntimeconfig.cache
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.csproj.CoreCompileInputs.cache
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.MvcApplicationPartsAssemblyInfo.cache

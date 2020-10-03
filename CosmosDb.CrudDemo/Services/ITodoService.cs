@@ -1,15 +1,17 @@
-﻿using CosmosDb.CrudDemo.Models;
+﻿using Cosmos.DataInteractionFacade.Data;
+using CosmosDb.CrudDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CosmosDb.CrudDemo.Services
+namespace CosmosDb.CrudDemo.Repository
 {
-    public interface ITodoService
+
+    //Todo: see how to interact with the interface on dependency injection
+    public interface ITodoService : ICosmosRepository<Todo>
     {
-        Task AddTodoItem(Todo todo);
-        Task<IEnumerable<Todo>> GetAllTodos();
+        Task<IEnumerable<Todo>> GetAllDoneTasks(bool isDone);
     }
 }

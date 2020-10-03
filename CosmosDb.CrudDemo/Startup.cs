@@ -1,12 +1,15 @@
+using AutoMapper;
 using Cosmos.DataInteractionFacade.Builder;
 using Cosmos.DataInteractionFacade.Data;
 using CosmosDb.CrudDemo.Models;
 using CosmosDb.CrudDemo.Repository;
+using CosmosDb.CrudDemo.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Text.Json;
 
 namespace CosmosDb.CrudDemo
 {
@@ -31,9 +34,19 @@ namespace CosmosDb.CrudDemo
             ICosmosRepositoryBuilder cosmosRepositoryBuilder = new CosmosRepositoryBuilder(accountEndpointUri, apiKey);
             //services.AddSingleton<ICosmosRepository<Todo>>(cosmosRepositoryBuilder.GetCosmosGenericRepository<Todo>(databaseName, collectionName).GetAwaiter().GetResult());
             services.AddSingleton<ITodoService>(cosmosRepositoryBuilder.GetCosmosRepository<TodoService, Todo>(databaseName, collectionName).GetAwaiter().GetResult());
+            services.AddSingleton<IStockService>(cosmosRepositoryBuilder.GetCosmosRepository<StockService, Stock>(databaseName, "stocks").GetAwaiter().GetResult());
+            services.AddSingleton<IStockHolderService>(cosmosRepositoryBuilder.GetCosmosRepository<StockHolderService, StockHolder>(databaseName, "stock-holders").GetAwaiter().GetResult());
 
 
-            services.AddControllers();
+            // Automapper
+            services.AddAutoMapper(typeof(Startup));
+
+            // Automatically camel case the json
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+                // for pascal case use NULL policy
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

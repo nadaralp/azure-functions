@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cosmos.DataInteractionFacade
 {
-    public class CosmosDbOptions
+    internal class CosmosDbOptions
     {
         public string AccountEndpointUri { get; set; }
         public string ApiKey { get; set; }
