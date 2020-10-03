@@ -36,13 +36,8 @@ namespace Cosmos.DataInteractionFacade.Builder
             DatabaseResponse database = await _client.CreateDatabaseIfNotExistsAsync(databaseName);
             await database.Database.CreateContainerIfNotExistsAsync(databaseName, "/id");
 
-            // Use Activator to create TRepository instance
-            TRepository repository = null; //Activator.createInstace(...)
+            TRepository repository = (TRepository)Activator.CreateInstance(typeof(TRepository), _client, databaseName, containerName);
 
-
-            // return the instance
-
-            //todo: remove null returning
             return repository;
         }
     }

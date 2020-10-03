@@ -10,7 +10,8 @@ namespace Cosmos.DataInteractionFacade.Data
     {
         // Queries
         Task<IEnumerable<T>> GetAllAsync();
-        Task<IEnumerable<T>> GetCollectionByAsync(Expression<Func<T, bool>> predicateExpression);
+        Task<IEnumerable<T>> GetBySqlQueryAsync(string queryString);
+        Task<IEnumerable<T>> GetByLinqQueryAsync(Expression<Func<T, bool>> predicateExpression);
         Task<T> GetSingleBy(Expression<Func<T, bool>> predicateExpression);
         Task<T> GetByIdAsync(Guid id);
 

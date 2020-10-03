@@ -1,6 +1,7 @@
 using Cosmos.DataInteractionFacade.Builder;
 using Cosmos.DataInteractionFacade.Data;
 using CosmosDb.CrudDemo.Models;
+using CosmosDb.CrudDemo.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -28,18 +29,10 @@ namespace CosmosDb.CrudDemo
             string collectionName = Configuration["CosmosDb:CollectionName"];
 
             // todo: ----> implement the following way of getting the instance
-            CosmosRepositoryBuilder cosmosRepositoryBuilder = new CosmosRepositoryBuilder(accountEndpointUri, apiKey);
+            ICosmosRepositoryBuilder cosmosRepositoryBuilder = new CosmosRepositoryBuilder(accountEndpointUri, apiKey);
             services.AddSingleton<ICosmosRepository<Todo>>(cosmosRepositoryBuilder.GetCosmosGenericRepository<Todo>(databaseName, collectionName).GetAwaiter().GetResult());
-            // services.AddSingleton<ITodoRepository>(cosmosRepositoryBuilder.GetRepository<TodoRepository, Todo>(databaseName, collectionName));
+            services.AddSingleton<ITodoRepository>(cosmosRepositoryBuilder.GetCosmosRepository<TodoRepository, Todo>(databaseName, collectionName).GetAwaiter().GetResult());
 
-
-            // todo: ----> This is not needed
-            // services.AddCosmosDbInstanceSingleton<Todo>(
-            //    accountEndpointUri,
-            //    apiKey,
-            //    databaseName,
-            //    collectionName
-            //    );
 
             services.AddControllers();
         }

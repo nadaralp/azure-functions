@@ -14,11 +14,11 @@ namespace CosmosDb.CrudDemo.Controllers
     [ApiController]
     public class TodoController : ControllerBase
     {
-        //private readonly ITodoRepository _repository;
+        private readonly ITodoRepository _repository;
 
-        private readonly ICosmosRepository<Todo> _repository;
+        //private readonly ICosmosRepository<Todo> _repository;
 
-        public TodoController(ICosmosRepository<Todo> repository)
+        public TodoController(ITodoRepository repository)
         {
             _repository = repository;
         }
@@ -28,6 +28,14 @@ namespace CosmosDb.CrudDemo.Controllers
         public async Task<IEnumerable<Todo>> GetTodos()
         {
             var todos = await _repository.GetAllAsync();
+            return todos;
+        }
+
+
+        [HttpGet("doneTasks/{isDone}")]
+        public async Task<IEnumerable<Todo>> GetDoneTasks(bool isDone)
+        {
+            var todos = await _repository.GetAllDoneTasks(isDone);
             return todos;
         }
 

@@ -1,5 +1,6 @@
 ﻿using Cosmos.DataInteractionFacade.Entities;
 using Microsoft.Azure.Cosmos;
+using Microsoft.Azure.Cosmos.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,10 +31,9 @@ namespace Cosmos.DataInteractionFacade.Data
             return entity;
         }
 
-        public Task<T> GetSingleBy(Expression<Func<T, bool>> predicateExpression)
+        public async Task<T> GetSingleBy(Expression<Func<T, bool>> predicateExpression)
         {
-            var collectionQueryable = _container.GetItemLinqQueryable<T>();
-            return Task.FromResult(collectionQueryable.FirstOrDefault(predicateExpression));
+            return (await GetByLinqQueryAsync(predicateExpression)).FirstOrDefault();
         }
 
         public async Task<IEnumerable<T>> GetAllAsync()
@@ -50,12 +50,6 @@ namespace Cosmos.DataInteractionFacade.Data
             }
 
             return results;
-        }
-
-        public Task<IEnumerable<T>> GetCollectionByAsync(Expression<Func<T, bool>> predicateExpression)
-        {
-            var collectionQueryable = _container.GetItemLinqQueryable<T>();
-            return Task.FromResult(collectionQueryable.Where(predicateExpression).AsEnumerable());
         }
 
         #endregion
@@ -125,6 +119,48 @@ namespace Cosmos.DataInteractionFacade.Data
                 await DeleteAsync(id);
 
             return true;
+        }
+
+        #endregion
+
+
+        #region Helpers
+
+        public async Task<IEnumerable<T>> GetBySqlQueryAsync(string queryString)
+        {
+            List<T> results = new List<T>();
+
+            using (FeedIterator<T> iterator = _container.GetItemQueryIterator<T>(queryString))
+            {
+                while (iterator.HasMoreResults)
+                {
+                    FeedResponse<T> response = await iterator.ReadNextAsync();
+                    results.AddRange(response.ToList());
+                }
+            }
+
+            return results;
+        }
+
+        public async Task<IEnumerable<T>> GetByLinqQueryAsync(Expression<Func<T, bool>> predicateExpression)
+        {
+            List<T> results = new List<T>();
+
+            using (FeedIterator<T> iterator =
+                _container.GetItemLinqQueryable<T>()
+                .Where(predicateExpression)
+                .ToFeedIterator())
+            {
+                while (iterator.HasMoreResults)
+                {
+                    foreach (var item in await iterator.ReadNextAsync())
+                    {
+                        results.Add(item);
+                    }
+                }
+            }
+
+            return results;
         }
 
         #endregion
