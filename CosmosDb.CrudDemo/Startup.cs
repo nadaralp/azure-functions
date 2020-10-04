@@ -1,6 +1,7 @@
 using AutoMapper;
 using Cosmos.DataInteractionFacade.Builder;
 using Cosmos.DataInteractionFacade.Data;
+using CosmosDb.CrudDemo.Infrastructure.KeyVault;
 using CosmosDb.CrudDemo.Models;
 using CosmosDb.CrudDemo.Repository;
 using CosmosDb.CrudDemo.Services;
@@ -9,24 +10,32 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
 namespace CosmosDb.CrudDemo
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             // todo: implement key-vault extraction instead of reading from appsettings.json
+            //var keyVaultManagerLogger = _loggerFactory.CreateLogger<KeyVaultManager>();
+            //var keyVaultManager = new KeyVaultManager(Configuration, keyVaultManagerLogger);
+
             string accountEndpointUri = Configuration["CosmosDb:AccountEndpointUri"];
+            // string accountEndpointUri = keyVaultManager.GetValue("CosmosAccountEndpointUri", "CosmosDb:AccountEndpointUri");
             string apiKey = Configuration["CosmosDb:ApiKey"];
             string databaseName = Configuration["CosmosDb:DatabaseName"];
             string collectionName = Configuration["CosmosDb:CollectionName"];
@@ -40,6 +49,9 @@ namespace CosmosDb.CrudDemo
 
             // Automapper
             services.AddAutoMapper(typeof(Startup));
+
+            // Add this to enable insights telemetry
+            services.AddApplicationInsightsTelemetry("288ba041-7423-4f9e-a62d-4ba574e03783");
 
             // Automatically camel case the json
             services.AddControllers().AddJsonOptions(options =>

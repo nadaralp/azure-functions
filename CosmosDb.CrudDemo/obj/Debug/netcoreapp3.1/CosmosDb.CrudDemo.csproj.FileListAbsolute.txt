@@ -36,5 +36,23 @@ D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\Cosmo
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.genruntimeconfig.cache
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\app-my-rnd-api - Web Deploy\profile.arm.json
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+D:\Test Projects\azure-functions\CosmosDb.CrudDemo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.csproj.CoreCompileInputs.cache
 D:\Test Projects\azure-functions\CosmosDb.CrudDemo\obj\Debug\netcoreapp3.1\CosmosDb.CrudDemo.MvcApplicationPartsAssemblyInfo.cache

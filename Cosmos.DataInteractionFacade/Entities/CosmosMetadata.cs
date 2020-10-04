@@ -5,11 +5,22 @@ namespace Cosmos.DataInteractionFacade.Entities
 {
     public class CosmosMetadata
     {
+        [JsonIgnore]
         public string _rid { get; set; }
+
+        [JsonIgnore]
         public string _self { get; set; }
+
+        [JsonIgnore]
         public string _etag { get; set; }
+
+        [JsonIgnore]
         public string _attachments { get; set; }
+
+        [JsonIgnore]
         public long _ts { get; set; }
+
+        [JsonIgnore]
         public DateTime _tsDateTime
 
         {

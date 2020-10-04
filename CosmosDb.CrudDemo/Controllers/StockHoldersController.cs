@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using CosmosDb.CrudDemo.Dto;
 using CosmosDb.CrudDemo.Models;
 using CosmosDb.CrudDemo.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -25,6 +26,12 @@ namespace CosmosDb.CrudDemo.Controllers
             return data;
         }
 
+
+        [HttpGet(nameof(GetStocksByHolders))]
+        public async Task<IEnumerable<StockByHolderAggregate>> GetStocksByHolders()
+        {
+            return await _stockHolderService.GetStocksByHolders();
+        }
 
     }
 }
