@@ -2,11 +2,16 @@ using AutoMapper;
 using Cosmos.DataInteractionFacade.Builder;
 using Cosmos.DataInteractionFacade.Data;
 using CosmosDb.CrudDemo.Infrastructure.KeyVault;
+using CosmosDb.CrudDemo.Infrastructure.Options;
+using CosmosDb.CrudDemo.Infrastructure.Security;
+using CosmosDb.CrudDemo.Infrastructure.Security.Requirements;
 using CosmosDb.CrudDemo.Models;
 using CosmosDb.CrudDemo.Repository;
 using CosmosDb.CrudDemo.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -40,6 +45,12 @@ namespace CosmosDb.CrudDemo
             string databaseName = Configuration["CosmosDb:DatabaseName"];
             string collectionName = Configuration["CosmosDb:CollectionName"];
 
+            // Declaring options
+            //services.Configure<PermittedUploadTokenOptions>(Configuration.GetSection(PermittedUploadTokenOptions.sectionName));
+            //var settings = Configuration.GetSection(PermittedUploadTokenOptions.sectionName).Get<PermittedUploadTokenOptions>();
+            services.AddAssemblyOptionsObjects();
+
+
             ICosmosRepositoryBuilder cosmosRepositoryBuilder = new CosmosRepositoryBuilder(accountEndpointUri, apiKey);
             //services.AddSingleton<ICosmosRepository<Todo>>(cosmosRepositoryBuilder.GetCosmosGenericRepository<Todo>(databaseName, collectionName).GetAwaiter().GetResult());
             services.AddSingleton<ITodoService>(cosmosRepositoryBuilder.GetCosmosRepository<TodoService, Todo>(databaseName, collectionName).GetAwaiter().GetResult());
@@ -52,6 +63,28 @@ namespace CosmosDb.CrudDemo
 
             // Add this to enable insights telemetry
             services.AddApplicationInsightsTelemetry("288ba041-7423-4f9e-a62d-4ba574e03783");
+
+
+            //services.AddAuthentication(); // Adding authentication scheme
+            services.AddAuthentication(o =>
+            {
+                o.DefaultScheme = "TokenAuthenticationScheme";
+            });
+            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            //        .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
+            //            options =>
+            //            {
+            //                options.LoginPath = new PathString("/auth/login");
+            //                options.AccessDeniedPath = new PathString("/auth/denied");
+            //            });
+
+            // Adding Security (Policy based authorization) Authorization
+            //https://www.red-gate.com/simple-talk/dotnet/c-programming/policy-based-authorization-in-asp-net-core-a-deep-dive/#:~:text=Role%2Dbased%20Authorization%20in%20ASP.NET%20Core&text=You%20can%20specify%20the%20roles,controller%20or%20an%20action%20method.
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("StorageUpload",
+                    policy => policy.Requirements.Add(new FileUploadTokenRequirement()));
+            });
 
             // Automatically camel case the json
             services.AddControllers().AddJsonOptions(options =>

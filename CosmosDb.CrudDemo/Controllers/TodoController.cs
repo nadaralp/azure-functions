@@ -7,6 +7,7 @@ using CosmosDb.CrudDemo.Models;
 using CosmosDb.CrudDemo.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace CosmosDb.CrudDemo.Controllers
 {
@@ -15,19 +16,23 @@ namespace CosmosDb.CrudDemo.Controllers
     public class TodoController : ControllerBase
     {
         private readonly ITodoService _repository;
+        private readonly ILogger<TodoController> _logger;
 
         //private readonly ICosmosRepository<Todo> _repository;
 
-        public TodoController(ITodoService repository)
+        public TodoController(ITodoService repository, ILogger<TodoController> logger)
         {
             _repository = repository;
+            _logger = logger;
         }
 
 
         [HttpGet]
         public async Task<IEnumerable<Todo>> GetTodos()
         {
+            _logger.LogInformation("GetTodos method invoking...");
             var todos = await _repository.GetAllAsync();
+            _logger.LogInformation("GetTodos method done...");
             return todos;
         }
 
