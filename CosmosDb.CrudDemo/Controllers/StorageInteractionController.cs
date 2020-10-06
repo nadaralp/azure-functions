@@ -29,7 +29,7 @@ namespace CosmosDb.CrudDemo.Controllers
 
         [HttpPost("upload")]
         //[Authorize(Policy = "StorageUpload")]
-        //[UploadPermissionFilter]
+        [UploadPermissionFilter]
         public async Task AddFileToBlobContainer(IFormFile file)
         {
             Console.WriteLine(file);

@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace CosmosDb.CrudDemo.Infrastructure.Options
 {
-    public class PermittedUploadTokenOptions
+    public class PermittedUploadTokenOptions : IBaseOptionBinder
     {
-        public static string sectionName = "FileUploadPermissions";
+        public string SectionName => "FileUploadPermissions";
 
         public string[] Tokens { get; set; }
+
+        
     }
 }

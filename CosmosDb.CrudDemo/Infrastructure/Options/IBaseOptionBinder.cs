@@ -8,6 +8,6 @@ namespace CosmosDb.CrudDemo.Infrastructure.Options
 {
     public interface IBaseOptionBinder
     {
-        static string SectionName { get; }
+        string SectionName { get; }
     }
 }
