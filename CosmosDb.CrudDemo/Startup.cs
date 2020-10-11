@@ -48,7 +48,7 @@ namespace CosmosDb.CrudDemo
             // Declaring options
             //services.Configure<PermittedUploadTokenOptions>(Configuration.GetSection(PermittedUploadTokenOptions.sectionName));
             //var settings = Configuration.GetSection(PermittedUploadTokenOptions.sectionName).Get<PermittedUploadTokenOptions>();
-            services.AddAssemblyOptionsObjects(Configuration);
+            //services.AddAssemblyOptionsObjects(Configuration);
 
 
             ICosmosRepositoryBuilder cosmosRepositoryBuilder = new CosmosRepositoryBuilder(accountEndpointUri, apiKey);

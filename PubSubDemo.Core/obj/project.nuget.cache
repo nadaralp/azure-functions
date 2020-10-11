@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xf2W63pW5ql5idto4fePnn8kdJwwoPETdq0gyySQ6nsxzuUMH9g8bA1o5ur9NMenxPITWvt1S3VDIx7Zs2JvPA==",
+  "dgSpecHash": "DSp9ewxJmRdfGEE9JhjCFqiXRAhM1W96lYt2nos7Ehtbs8rFMcJgptveOdD93lnQVj7jIKSPaoi+i9u/5CQmPg==",
   "success": true,
-  "projectFilePath": "D:\\Test Projects\\azure-functions\\PubSubDemo.Core\\PubSubDemo.Core.csproj",
+  "projectFilePath": "D:\\Learning\\azure-functions\\PubSubDemo.Core\\PubSubDemo.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

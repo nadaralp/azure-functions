@@ -24,3 +24,29 @@ D:\Test Projects\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3
 D:\Test Projects\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.csprojAssemblyReference.cache
 D:\Test Projects\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.csproj.CoreCompileInputs.cache
 D:\Test Projects\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.csproj.CopyComplete
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.exe
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.deps.json
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.runtimeconfig.json
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.runtimeconfig.dev.json
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.pdb
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.Azure.ServiceBus.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ServiceBus.model.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\bin\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.csprojAssemblyReference.cache
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.AssemblyInfo.cs
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.csproj.CopyComplete
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.dll
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.pdb
+D:\Learning\azure-functions\ConsoleApp.TopicPublisher\obj\Debug\netcoreapp3.1\ConsoleApp.TopicPublisher.genruntimeconfig.cache

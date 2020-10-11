@@ -7,3 +7,12 @@ D:\Test Projects\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\Servic
 D:\Test Projects\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.csproj.CoreCompileInputs.cache
 D:\Test Projects\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.dll
 D:\Test Projects\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ServiceBus.model\bin\Debug\netcoreapp3.1\ServiceBus.model.deps.json
+D:\Learning\azure-functions\ServiceBus.model\bin\Debug\netcoreapp3.1\ServiceBus.model.dll
+D:\Learning\azure-functions\ServiceBus.model\bin\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.csprojAssemblyReference.cache
+D:\Learning\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.AssemblyInfo.cs
+D:\Learning\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.dll
+D:\Learning\azure-functions\ServiceBus.model\obj\Debug\netcoreapp3.1\ServiceBus.model.pdb

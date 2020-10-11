@@ -24,3 +24,28 @@ D:\Test Projects\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3
 D:\Test Projects\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.genruntimeconfig.cache
 D:\Test Projects\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBus.model.dll
 D:\Test Projects\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.exe
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.deps.json
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.runtimeconfig.json
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.runtimeconfig.dev.json
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.pdb
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.Azure.ServiceBus.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBus.model.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\bin\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.AssemblyInfo.cs
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.csproj.CopyComplete
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.dll
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.pdb
+D:\Learning\azure-functions\ServiceBusConsoleReceiver\obj\Debug\netcoreapp3.1\ServiceBusConsoleReceiver.genruntimeconfig.cache

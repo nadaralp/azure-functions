@@ -5795,19 +5795,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nadar\\.nuget\\packages\\": {}
+    "C:\\Users\\nadar-a\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test Projects\\azure-functions\\PubSubDemo.Data\\PubSubDemo.Data.csproj",
+      "projectUniqueName": "D:\\Learning\\azure-functions\\PubSubDemo.Data\\PubSubDemo.Data.csproj",
       "projectName": "PubSubDemo.Data",
-      "projectPath": "D:\\Test Projects\\azure-functions\\PubSubDemo.Data\\PubSubDemo.Data.csproj",
-      "packagesPath": "C:\\Users\\nadar\\.nuget\\packages\\",
-      "outputPath": "D:\\Test Projects\\azure-functions\\PubSubDemo.Data\\obj\\",
+      "projectPath": "D:\\Learning\\azure-functions\\PubSubDemo.Data\\PubSubDemo.Data.csproj",
+      "packagesPath": "C:\\Users\\nadar-a\\.nuget\\packages\\",
+      "outputPath": "D:\\Learning\\azure-functions\\PubSubDemo.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nadar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nadar-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5815,13 +5819,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\nas\\yit\\Shared\\YitNugetPackages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Test Projects\\azure-functions\\PubSubDemo.Core\\PubSubDemo.Core.csproj": {
-              "projectPath": "D:\\Test Projects\\azure-functions\\PubSubDemo.Core\\PubSubDemo.Core.csproj"
+            "D:\\Learning\\azure-functions\\PubSubDemo.Core\\PubSubDemo.Core.csproj": {
+              "projectPath": "D:\\Learning\\azure-functions\\PubSubDemo.Core\\PubSubDemo.Core.csproj"
             }
           }
         }

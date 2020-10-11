@@ -24,3 +24,28 @@ D:\Test Projects\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netco
 D:\Test Projects\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.csprojAssemblyReference.cache
 D:\Test Projects\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.csproj.CoreCompileInputs.cache
 D:\Test Projects\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.csproj.CopyComplete
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.exe
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.deps.json
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.runtimeconfig.json
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.runtimeconfig.dev.json
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.pdb
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.Azure.ServiceBus.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ServiceBus.model.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\bin\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.AssemblyInfo.cs
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.csproj.CopyComplete
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.dll
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.pdb
+D:\Learning\azure-functions\ConsoleApp.TopicReceiverGeneral\obj\Debug\netcoreapp3.1\ConsoleApp.TopicReceiverGeneral.genruntimeconfig.cache

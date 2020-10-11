@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "79lxqevpEkkc7fbQGC+g2ovsncOjmq5D5RYtHKab3BxbVnn7spVPH8DWhHNg+j9AzZghnDfeTqxK1qBj1S03rA==",
+  "dgSpecHash": "6I6iSZrYDBlj1hcTEovmausa1Pg8C54fXc3yzcszOQ1OkI3CxfXJAOSVD8xE29HRgILxq3UxmvXVfjJBvutXCg==",
   "success": true,
-  "projectFilePath": "D:\\Test Projects\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj",
+  "projectFilePath": "D:\\Learning\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nadar\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\azure.storage.common\\12.5.2\\azure.storage.common.12.5.2.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\azure.storage.queues\\12.4.2\\azure.storage.queues.12.4.2.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
-    "C:\\Users\\nadar\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    "C:\\Users\\nadar-a\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
+    "C:\\Users\\nadar-a\\.nuget\\packages\\azure.storage.common\\12.5.2\\azure.storage.common.12.5.2.nupkg.sha512",
+    "C:\\Users\\nadar-a\\.nuget\\packages\\azure.storage.queues\\12.4.2\\azure.storage.queues.12.4.2.nupkg.sha512",
+    "C:\\Users\\nadar-a\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\nadar-a\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\nadar-a\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\nadar-a\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\nadar-a\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
   ],
   "logs": []
 }

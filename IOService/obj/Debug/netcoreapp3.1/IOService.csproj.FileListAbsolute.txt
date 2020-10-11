@@ -7,3 +7,12 @@ D:\Test Projects\azure-functions\IOService\bin\Debug\netcoreapp3.1\IOService.pdb
 D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.dll
 D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.pdb
 D:\Test Projects\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\IOService\bin\Debug\netcoreapp3.1\IOService.deps.json
+D:\Learning\azure-functions\IOService\bin\Debug\netcoreapp3.1\IOService.dll
+D:\Learning\azure-functions\IOService\bin\Debug\netcoreapp3.1\IOService.pdb
+D:\Learning\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.csprojAssemblyReference.cache
+D:\Learning\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.AssemblyInfo.cs
+D:\Learning\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.dll
+D:\Learning\azure-functions\IOService\obj\Debug\netcoreapp3.1\IOService.pdb

@@ -14,3 +14,19 @@ D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\Pub
 D:\Test Projects\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.pdb
 D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.dll
 D:\Test Projects\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.pdb
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Services.deps.json
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Services.dll
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Services.pdb
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Core.dll
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Data.dll
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.dll
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Core.pdb
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Data.pdb
+D:\Learning\azure-functions\PubSubDemo.Services\bin\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.pdb
+D:\Learning\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.csprojAssemblyReference.cache
+D:\Learning\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.AssemblyInfo.cs
+D:\Learning\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.csproj.CopyComplete
+D:\Learning\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.dll
+D:\Learning\azure-functions\PubSubDemo.Services\obj\Debug\netcoreapp3.1\PubSubDemo.Services.pdb

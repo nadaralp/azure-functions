@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test Projects\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj": {}
+    "D:\\Learning\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj": {}
   },
   "projects": {
-    "D:\\Test Projects\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj": {
+    "D:\\Learning\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test Projects\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj",
+        "projectUniqueName": "D:\\Learning\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj",
         "projectName": "ConsoleApp.TopicReceiverGeneral",
-        "projectPath": "D:\\Test Projects\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj",
-        "packagesPath": "C:\\Users\\nadar\\.nuget\\packages\\",
-        "outputPath": "D:\\Test Projects\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\obj\\",
+        "projectPath": "D:\\Learning\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\ConsoleApp.TopicReceiverGeneral.csproj",
+        "packagesPath": "C:\\Users\\nadar-a\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning\\azure-functions\\ConsoleApp.TopicReceiverGeneral\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nadar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nadar-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,13 +25,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\nas\\yit\\Shared\\YitNugetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Test Projects\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj": {
-                "projectPath": "D:\\Test Projects\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj"
+              "D:\\Learning\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj": {
+                "projectPath": "D:\\Learning\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj"
               }
             }
           }
@@ -66,17 +70,20 @@
         }
       }
     },
-    "D:\\Test Projects\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj": {
+    "D:\\Learning\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test Projects\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj",
+        "projectUniqueName": "D:\\Learning\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj",
         "projectName": "ServiceBus.model",
-        "projectPath": "D:\\Test Projects\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj",
-        "packagesPath": "C:\\Users\\nadar\\.nuget\\packages\\",
-        "outputPath": "D:\\Test Projects\\azure-functions\\ServiceBus.model\\obj\\",
+        "projectPath": "D:\\Learning\\azure-functions\\ServiceBus.model\\ServiceBus.model.csproj",
+        "packagesPath": "C:\\Users\\nadar-a\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning\\azure-functions\\ServiceBus.model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nadar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nadar-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,6 +91,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\nas\\yit\\Shared\\YitNugetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -16,3 +16,21 @@ D:\Test Projects\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\
 D:\Test Projects\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.dll
 D:\Test Projects\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.pdb
 D:\Test Projects\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.genruntimeconfig.cache
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\IntegratingBlobStorage.exe
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\IntegratingBlobStorage.deps.json
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\IntegratingBlobStorage.runtimeconfig.json
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\IntegratingBlobStorage.runtimeconfig.dev.json
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\IntegratingBlobStorage.dll
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\IntegratingBlobStorage.pdb
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+D:\Learning\azure-functions\IntegratingBlobStorage\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.csprojAssemblyReference.cache
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.AssemblyInfo.cs
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.csproj.CopyComplete
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.dll
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.pdb
+D:\Learning\azure-functions\IntegratingBlobStorage\obj\Debug\netcoreapp3.1\IntegratingBlobStorage.genruntimeconfig.cache

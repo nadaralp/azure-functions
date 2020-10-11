@@ -24,3 +24,29 @@ D:\Test Projects\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\Se
 D:\Test Projects\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.genruntimeconfig.cache
 D:\Test Projects\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBus.model.dll
 D:\Test Projects\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBusConsoleApp.exe
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBusConsoleApp.deps.json
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBusConsoleApp.runtimeconfig.json
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBusConsoleApp.runtimeconfig.dev.json
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBusConsoleApp.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBusConsoleApp.pdb
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.ServiceBus.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBus.model.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\bin\Debug\netcoreapp3.1\ServiceBus.model.pdb
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.csprojAssemblyReference.cache
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.AssemblyInfo.cs
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.csproj.CopyComplete
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.dll
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.pdb
+D:\Learning\azure-functions\ServiceBusConsoleApp\obj\Debug\netcoreapp3.1\ServiceBusConsoleApp.genruntimeconfig.cache

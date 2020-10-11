@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test Projects\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj": {}
+    "D:\\Learning\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj": {}
   },
   "projects": {
-    "D:\\Test Projects\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj": {
+    "D:\\Learning\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test Projects\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj",
+        "projectUniqueName": "D:\\Learning\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj",
         "projectName": "IntegratingWithQueueStorage",
-        "projectPath": "D:\\Test Projects\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj",
-        "packagesPath": "C:\\Users\\nadar\\.nuget\\packages\\",
-        "outputPath": "D:\\Test Projects\\azure-functions\\IntegratingWithQueueStorage\\obj\\",
+        "projectPath": "D:\\Learning\\azure-functions\\IntegratingWithQueueStorage\\IntegratingWithQueueStorage.csproj",
+        "packagesPath": "C:\\Users\\nadar-a\\.nuget\\packages\\",
+        "outputPath": "D:\\Learning\\azure-functions\\IntegratingWithQueueStorage\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nadar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nadar-a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\nas\\yit\\Shared\\YitNugetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

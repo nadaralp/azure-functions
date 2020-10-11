@@ -16,3 +16,21 @@ D:\Test Projects\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreap
 D:\Test Projects\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.dll
 D:\Test Projects\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.pdb
 D:\Test Projects\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.genruntimeconfig.cache
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\IntegratingWithQueueStorage.exe
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\IntegratingWithQueueStorage.deps.json
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\IntegratingWithQueueStorage.runtimeconfig.json
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\IntegratingWithQueueStorage.runtimeconfig.dev.json
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\IntegratingWithQueueStorage.dll
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\IntegratingWithQueueStorage.pdb
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\Azure.Storage.Queues.dll
+D:\Learning\azure-functions\IntegratingWithQueueStorage\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.csprojAssemblyReference.cache
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.AssemblyInfo.cs
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.csproj.CopyComplete
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.dll
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.pdb
+D:\Learning\azure-functions\IntegratingWithQueueStorage\obj\Debug\netcoreapp3.1\IntegratingWithQueueStorage.genruntimeconfig.cache

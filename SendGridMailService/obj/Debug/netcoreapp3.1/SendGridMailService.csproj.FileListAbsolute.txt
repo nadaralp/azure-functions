@@ -7,3 +7,12 @@ D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\Sen
 D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.csproj.CoreCompileInputs.cache
 D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.dll
 D:\Test Projects\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.pdb
+D:\Learning\azure-functions\SendGridMailService\bin\Debug\netcoreapp3.1\SendGridMailService.deps.json
+D:\Learning\azure-functions\SendGridMailService\bin\Debug\netcoreapp3.1\SendGridMailService.dll
+D:\Learning\azure-functions\SendGridMailService\bin\Debug\netcoreapp3.1\SendGridMailService.pdb
+D:\Learning\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.csprojAssemblyReference.cache
+D:\Learning\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.AssemblyInfo.cs
+D:\Learning\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.dll
+D:\Learning\azure-functions\SendGridMailService\obj\Debug\netcoreapp3.1\SendGridMailService.pdb

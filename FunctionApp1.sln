@@ -53,9 +53,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.TopicReceiverFil
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CosmosDb", "CosmosDb", "{26B6FA5D-3DA1-4BA0-A757-0C45BE8C1873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDb.CrudDemo", "CosmosDb.CrudDemo\CosmosDb.CrudDemo.csproj", "{B4670459-C741-4F38-8119-B4374DD3C1FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDb.CrudDemo", "CosmosDb.CrudDemo\CosmosDb.CrudDemo.csproj", "{B4670459-C741-4F38-8119-B4374DD3C1FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosmos.DataInteractionFacade", "Cosmos.DataInteractionFacade\Cosmos.DataInteractionFacade.csproj", "{7C04B445-1FE3-49D6-877D-ACA50601F16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosmos.DataInteractionFacade", "Cosmos.DataInteractionFacade\Cosmos.DataInteractionFacade.csproj", "{7C04B445-1FE3-49D6-877D-ACA50601F16E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CB178E6C-42BB-45C9-97C9-19CA6D0AA666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{FD7B705E-6CA7-4721-8CB8-10AB13271BF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +151,10 @@ Global
 		{7C04B445-1FE3-49D6-877D-ACA50601F16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C04B445-1FE3-49D6-877D-ACA50601F16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C04B445-1FE3-49D6-877D-ACA50601F16E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7B705E-6CA7-4721-8CB8-10AB13271BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7B705E-6CA7-4721-8CB8-10AB13271BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7B705E-6CA7-4721-8CB8-10AB13271BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7B705E-6CA7-4721-8CB8-10AB13271BF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +179,7 @@ Global
 		{19F7B697-E8DD-4062-ABE3-1AD0C5E25A50} = {71EE621C-429E-4AD1-B6C4-428487E072B6}
 		{B4670459-C741-4F38-8119-B4374DD3C1FC} = {26B6FA5D-3DA1-4BA0-A757-0C45BE8C1873}
 		{7C04B445-1FE3-49D6-877D-ACA50601F16E} = {26B6FA5D-3DA1-4BA0-A757-0C45BE8C1873}
+		{FD7B705E-6CA7-4721-8CB8-10AB13271BF4} = {CB178E6C-42BB-45C9-97C9-19CA6D0AA666}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2EAC328-6E61-4DC4-A748-BFBF0FE1D174}

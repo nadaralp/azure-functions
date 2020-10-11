@@ -7,3 +7,11 @@ D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3
 D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.csproj.CoreCompileInputs.cache
 D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.dll
 D:\Test Projects\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.pdb
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\bin\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.deps.json
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\bin\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.dll
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\bin\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.pdb
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.AssemblyInfoInputs.cache
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.AssemblyInfo.cs
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.dll
+D:\Learning\azure-functions\PubSubDemo.Infrastructure\obj\Debug\netcoreapp3.1\PubSubDemo.Infrastructure.pdb
